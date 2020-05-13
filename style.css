@@ -766,10 +766,11 @@ h4 {
   width: 600px;
   height: 600px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .portfolio-thumb {
     width: 600px;
     height: 600px;
+    margin-left: 15%;
   }
 }
 
@@ -777,6 +778,7 @@ h4 {
   .portfolio-thumb {
     width: 400px;
     height: 400px;
+    margin-right: 55px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -795,20 +797,15 @@ h4 {
 
 .images1 {
   margin-right: 40px;
-  width: 800px;
 }
 
 .images3 {
   margin-right: 40px;
-  width: 800px;
   text-align: center;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .portfolio-row {
     display: block;
-  }
-  .images1 {
-    width: auto;
   }
 }
 
@@ -1099,6 +1096,22 @@ h4 {
     justify-content: space-between;
     margin-left: 20px;
   }
+}
+
+.navbar-header2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.li {
+  display: flex;
+}
+.li li {
+  margin-right: 15px;
+  list-style: none;
+}
+.li a {
+  text-decoration: none;
 }
 @media screen and (max-width: 290px) {
   .liste-resp {

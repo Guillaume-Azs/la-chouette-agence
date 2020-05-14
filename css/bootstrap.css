@@ -1444,6 +1444,7 @@ img {
   display: block;
   max-width: 100%
   height: auto;
+  text-align: center;
 }
 
 .img-rounded {
@@ -3700,6 +3701,9 @@ textarea.input-lg {
 .btn:hover {
   color: #333;
   text-decoration: none;
+}
+a:focus {
+  color: #333;
 }
 
 .btn.active,

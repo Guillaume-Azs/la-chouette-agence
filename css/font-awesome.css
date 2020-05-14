@@ -812,6 +812,7 @@
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
+  color: black;
 }
 
 .fa-github:before {
@@ -1583,6 +1584,10 @@
 
 .fa-instagram:before {
   content: "\f16d";
+  color: black;
+}
+.fa-twitter:before {
+  color: black;
 }
 
 .fa-flickr:before {
@@ -1643,6 +1648,7 @@
 
 .fa-dribbble:before {
   content: "\f17d";
+  color: black;
 }
 
 .fa-skype:before {
